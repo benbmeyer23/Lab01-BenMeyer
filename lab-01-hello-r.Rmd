@@ -1,7 +1,7 @@
 ---
 title: "Lab 01 - Hello R!"
-author: "YOUR FIRST AND LAST NAME"
-date: "TODAY'S DATE"
+author: "Ben Meyer"
+date: "1/27/2022"
 output: html_document
 ---
 
