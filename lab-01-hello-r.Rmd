@@ -14,10 +14,12 @@ library(datasauRus)
 # Exercise 1
 
 ```{r ex-1}
-# your code for Exercise 1 goes here
+# dim(datasaurus_dozen)
 ```
 
-YOUR RESPONSE FOR EXERCISE 1 GOES HERE.
+[1] 1846    3
+
+1846 rows and 3 columns
 
 
 # Exercise 2
