@@ -78,6 +78,6 @@ datasaurus_dozen %>%
 
 
 ```{References}
-# [1]: Used for looking up required inputs for R functions - https://cran.r-project.org/doc/manuals/r-release/fullrefman.pdf
+# [1]: Used for looking up inputs for R functions - https://cran.r-project.org/doc/manuals/r-release/fullrefman.pdf
 # [2]: Used for a quick tutorial on subsetting data - https://www.statmethods.net/management/subset.html
 ```
