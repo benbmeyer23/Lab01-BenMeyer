@@ -48,10 +48,13 @@ The correlation for star (-0.0629611) is slightly smaller than the correlation f
 # Exercise 4
 
 ```{r ex-4}
-# your code for Exercise 4 goes here
+#Same code from Exercises 2 and 3, same references
+data <- subset(datasaurus_dozen, dataset == 'circle')
+plot(data)
+cor(data$x, data$y)
 ```
 
-YOUR RESPONSE FOR EXERCISE 4 GOES HERE.
+The correlation for circle (-0.06834336) is slightly larger than the correlation for dino (-0.06447185)
 
 # Exercise 5
 
