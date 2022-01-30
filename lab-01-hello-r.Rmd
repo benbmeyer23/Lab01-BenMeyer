@@ -14,7 +14,10 @@ library(datasauRus)
 # Exercise 1
 
 ```{r ex-1}
-# dim(datasaurus_dozen)
+# Returns array consisting of number of rows and columns respectively 
+# See Reference [1]
+dim(datasaurus_dozen)
+names(datasaurus_dozen)
 ```
 
 [1] 1846    3
@@ -25,10 +28,15 @@ library(datasauRus)
 # Exercise 2
 
 ```{r ex-2}
-# your code for Exercise 2 goes here
+# Grabs data from datasaurus_dozen where dataset="dino" and plots 
+# See References [1] and [2]
+data <- subset(datasaurus_dozen, dataset == 'dino')
+plot(data)
+cor(data$x, data$y)
 ```
 
-YOUR RESPONSE FOR EXERCISE 2 GOES HERE.
+Output from cor():
+[1] -0.06447185
 
 
 # Exercise 3
@@ -55,3 +63,8 @@ YOUR RESPONSE FOR EXERCISE 4 GOES HERE.
 ```
 
 YOUR RESPONSE FOR EXERCISE 5 GOES HERE.
+
+```{References}
+# [1]: Used for looking up required inputs for R functions - https://cran.r-project.org/doc/manuals/r-release/fullrefman.pdf
+# [2]: Used for a quick tutorial on subsetting data - https://www.statmethods.net/management/subset.html
+```
