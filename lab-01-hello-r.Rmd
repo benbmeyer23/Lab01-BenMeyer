@@ -20,9 +20,6 @@ dim(datasaurus_dozen)
 names(datasaurus_dozen)
 ```
 
-[1] 1846    3
-
-1846 rows and 3 columns
 
 
 # Exercise 2
@@ -35,17 +32,17 @@ plot(data)
 cor(data$x, data$y)
 ```
 
-Output from cor():
-[1] -0.06447185
-
 
 # Exercise 3
 
 ```{r ex-3}
-# your code for Exercise 3 goes here
+# Same code from Exercise 2, same references
+data <- subset(datasaurus_dozen, dataset == 'star')
+plot(data)
+cor(data$x, data$y)
 ```
 
-YOUR RESPONSE FOR EXERCISE 3 GOES HERE.
+The correlation for star (-0.0629611) is slightly smaller than the correlation for dino (-0.06447185)
 
 
 # Exercise 4
